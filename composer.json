@@ -1,0 +1,17 @@
+{
+    "name": "crizprz/pwacrizprz",
+    "description": "this package will turn your website into a pwa",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "CRIZPRZ",
+        "email": "al221711754@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Crizprz\\Pwacrizprz\\": "src/"
+        }
+    }
+}
