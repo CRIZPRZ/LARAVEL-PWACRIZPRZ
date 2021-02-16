@@ -2,6 +2,14 @@ const CACHE = 'static-' + new Date();
 
 const APP_SHELL = [
     '/',
+    '/img/icons/icon_72px.png',
+    '/img/icons/icon_96px.png',
+    '/img/icons/icon_128px.png',
+    '/img/icons/icon_144px.png',
+    '/img/icons/icon_152px.png',
+    '/img/icons/icon_192px.png',
+    '/img/icons/icon_384px.png',
+    '/img/icons/icon_512px.png',
 ];
 
 self.addEventListener('install', e => {

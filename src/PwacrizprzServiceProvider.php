@@ -3,6 +3,7 @@
 namespace Crizprz\Pwacrizprz;
 
 use Carbon\Laravel\ServiceProvider;
+use Facade\FlareClient\View;
 use Illuminate\Support\Facades\Blade;
 
 class PwacrizprzServiceProvider extends ServiceProvider
@@ -10,8 +11,7 @@ class PwacrizprzServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::directive('PWACRIZPRZ',function(){
-            return '<link rel="manifest" href="/manifest.json"><script src="/js/registerSW.js" charset="utf-8"></script>';
-
+            return "<?php echo \$__env->make( 'PWA.metatags')->render(); ?>";
          });
 
         $this->loadRoutesFrom(__DIR__. '/routes/web.php');
@@ -37,12 +37,17 @@ class PwacrizprzServiceProvider extends ServiceProvider
             __DIR__.'/assets/js/' => public_path('js'),
         ], 'public');
 
+        $this->publishes([
+            __DIR__.'/views/PWA/' => resource_path('/views/PWA'),
+        ], 'view');
+
     }
 
     protected function registerIcons()
     {
         $this->publishes([
-            __DIR__.'/assets/img/icons' => public_path('img/icons'),
+            __DIR__.'/assets/img' => public_path('img'),
         ], 'icons');
+
     }
 }
