@@ -38,12 +38,12 @@ Or add the following to your `composer.json` file :
 ## CONFIGURATION
 1. Open `config/app.php` and add this line to your Service Providers Array.
 ```php
-Crizprz\Pwacrizprz\PwacrizprzServiceProvider::class,
+Crizprz\Pwacrizprz\Providers\PwacrizprzServiceProvider::class,
 ```
 
 2. publish the assets.
 ```php
-php artisan vendor:publish --provider="Crizprz\Pwacrizprz\PwacrizprzServiceProvider"
+php artisan vendor:publish --provider="Crizprz\Pwacrizprz\Providers\PwacrizprzServiceProvider"
 ```
 
 3. clear the views.
