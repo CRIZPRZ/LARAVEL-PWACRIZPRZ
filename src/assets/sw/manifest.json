@@ -70,6 +70,5 @@
             "url": "/login",
             "icons": [{ "src": "/img/icons/icon_192px.png", "sizes": "192x192" }]
         }
-
     ]
 }

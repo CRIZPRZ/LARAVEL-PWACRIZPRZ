@@ -19,8 +19,6 @@ const APP_SHELL = [
     '/img/splashScreen/SplashScreen-2048x2732.png',
     '/img/splashScreen/SplashScreen-750x1334.png',
     '/img/splashScreen/SplashScreen-828x1792.png',
-
-
 ];
 
 self.addEventListener('install', e => {
