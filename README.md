@@ -16,6 +16,9 @@ Your application should work with navigation within the HTML. (no reliance on th
 
 REQUIREMENTS
 ====
+
+Composer v.2 is recommended
+
 progressive web applications require working over the [HTTPS](https://developers.google.com/search/docs/advanced/security/https?hl=es) protocol, unless you are working with localhost, if your site does not have an SSL certificate visit [Let's Encrypt](https://letsencrypt.org/es/)
 
 ## INSTALLATION
@@ -234,6 +237,8 @@ in this file the service worker is registered, the meta theme-color is configure
 ## ServiceWorker
 you can customize the service worker in the file `public_path/sw.js`
 By default, the service worker implemented by this app is:
+
+Note that if files are added to the cache when registering the new service worker removes the old cache and creates the new one
 ```php
 const CACHE = 'static-' + new Date();
 
