@@ -22,7 +22,16 @@ class PwacrizprzServiceProvider extends ServiceProvider
 
     public function register()
     {
-
+        $route = "Route::get('/offline', [PwaController::class,'offline']);";
+        $doc = fopen( base_path('routes/web.php'), "r" );
+        $cont = fread($doc, filesize(base_path('routes/web.php')));
+        $pos = strpos($cont, $route);
+        if (!$pos) {
+            file_put_contents(base_path('routes/web.php'), $route, FILE_APPEND | LOCK_EX);
+            return;
+        }else{
+            return;
+        }
     }
 
     protected function registerassets()
