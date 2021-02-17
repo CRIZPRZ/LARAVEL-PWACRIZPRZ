@@ -29,7 +29,7 @@
     },
     "scripts": {
         "post-package-install": [
-            "@php artisan view:clear --ansi"
+            "@php artisan view:clear"
         ]
     }
 }
