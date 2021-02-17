@@ -10,6 +10,17 @@ const APP_SHELL = [
     '/img/icons/icon_192px.png',
     '/img/icons/icon_384px.png',
     '/img/icons/icon_512px.png',
+    '/img/splashScreen/SplashScreen-1125x2436.png',
+    '/img/splashScreen/SplashScreen-1242x2208.png',
+    '/img/splashScreen/SplashScreen-1242x2688.png',
+    '/img/splashScreen/SplashScreen-1536x2048.png',
+    '/img/splashScreen/SplashScreen-1668x2224.png',
+    '/img/splashScreen/SplashScreen-1668x2388.png',
+    '/img/splashScreen/SplashScreen-2048x2732.png',
+    '/img/splashScreen/SplashScreen-750x1334.png',
+    '/img/splashScreen/SplashScreen-828x1792.png',
+
+
 ];
 
 self.addEventListener('install', e => {

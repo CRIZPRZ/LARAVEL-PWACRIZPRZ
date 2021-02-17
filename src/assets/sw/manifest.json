@@ -55,5 +55,21 @@
             "sizes": "512x512",
             "purpose": "maskable any"
         }
+    ],
+    "shortcuts": [{
+            "name": "Register",
+            "short_name": "Register in site web",
+            "description": "Redirect register",
+            "url": "/register",
+            "icons": [{ "src": "/img/icons/icon_192px.png", "sizes": "192x192" }]
+        },
+        {
+            "name": "Login",
+            "short_name": "Login",
+            "description": "Redirect Login",
+            "url": "/login",
+            "icons": [{ "src": "/img/icons/icon_192px.png", "sizes": "192x192" }]
+        }
+
     ]
 }
