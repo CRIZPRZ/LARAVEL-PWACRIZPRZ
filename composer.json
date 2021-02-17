@@ -26,5 +26,10 @@
                 "Crizprz\\Pwacrizprz\\Providers\\PwacrizprzServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-package-install": [
+            "@php artisan view:clear --ansi"
+        ]
     }
 }
