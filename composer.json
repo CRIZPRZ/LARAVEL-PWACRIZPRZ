@@ -3,11 +3,17 @@
     "description": "this package will turn your website into a pwa",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "php",
+        "pwa",
+        "progressive web apps"
+    ],
     "authors": [{
-        "name": "CRIZPRZ",
+        "name": "Cristian Lira Perez",
         "email": "al221711754@gmail.com"
     }],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
@@ -17,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Crizprz\\Pwacrizprz\\PwacrizprzServiceProvider"
+                "Crizprz\\Pwacrizprz\\Providers\\PwacrizprzServiceProvider"
             ]
         }
     }

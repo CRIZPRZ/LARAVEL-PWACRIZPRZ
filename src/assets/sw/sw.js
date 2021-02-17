@@ -2,6 +2,7 @@ const CACHE = 'static-' + new Date();
 
 const APP_SHELL = [
     '/',
+    '/offline',
     '/img/icons/icon_72px.png',
     '/img/icons/icon_96px.png',
     '/img/icons/icon_128px.png',
