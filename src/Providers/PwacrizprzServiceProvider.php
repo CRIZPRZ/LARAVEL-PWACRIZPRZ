@@ -22,6 +22,7 @@ class PwacrizprzServiceProvider extends ServiceProvider
 
     public function register()
     {
+
     }
 
     protected function registerassets()
