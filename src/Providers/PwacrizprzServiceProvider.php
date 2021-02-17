@@ -23,6 +23,7 @@ class PwacrizprzServiceProvider extends ServiceProvider
 
     public function register()
     {
+
         if (Application::VERSION < 8) {
             $route = "Route::get('/offline','PwaController@offline');";
          }else {

@@ -13,7 +13,7 @@
         "name": "Cristian Lira Perez",
         "email": "al221711754@gmail.com"
     }],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
