@@ -1,6 +1,7 @@
 # Progressive Web Aplication (PWA) for Laravel by CRIZPRZ
 
-[![Laravel 5.x](https://img.shields.io/badge/Laravel-5.x-orange.svg)](https://laravel.com/docs/5.8)
+[![Laravel 5.7](https://img.shields.io/badge/Laravel-5.7-orange.svg)](https://laravel.com/docs/5.7)
+[![Laravel 5.8](https://img.shields.io/badge/Laravel-5.8-orange.svg)](https://laravel.com/docs/5.8)
 [![Laravel 6.x](https://img.shields.io/badge/Laravel-6.x-blue.svg)](https://laravel.com/docs/6.x)
 [![Laravel 7.x](https://img.shields.io/badge/Laravel-7.x-red.svg)](https://laravel.com/docs/7.x)
 [![Laravel 8.x](https://img.shields.io/badge/Laravel-8.x-red.svg)](https://laravel.com)
