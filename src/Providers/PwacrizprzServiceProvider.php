@@ -59,6 +59,7 @@ class PwacrizprzServiceProvider extends ServiceProvider
             $route = "Route::get('/offline','PwaController@offline');";
          }else {
             $route = "Route::get('/offline', [App\Http\Controllers\PwaController::class,'offline']);";
+
          }
         $doc = fopen( base_path('routes/web.php'), "r" );
         $cont = fread($doc, filesize(base_path('routes/web.php')));
