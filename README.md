@@ -31,7 +31,7 @@ composer require crizprz/pwacrizprz
 Or add the following to your `composer.json` file :
 ```json
 "require": {
-    "crizprz/pwacrizprz": "^1.0",
+    "crizprz/pwacrizprz": "^2.0",
 },
 ```
 
