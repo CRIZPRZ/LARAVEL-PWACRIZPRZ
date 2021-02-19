@@ -13,7 +13,7 @@ This package for Laravel converts your project to a [(PWA)](https://developer.mo
 
 Your application should work with navigation within the HTML. (no reliance on the browser back or forward button).
 
-[demo](https://github.com/CRIZPRZ/laravel-pwa-demo) of the pwzcrizprz package
+[demo](https://github.com/CRIZPRZ/laravel-pwacrizprz-demo) of the pwzcrizprz package
 
 REQUIREMENTS
 ====
